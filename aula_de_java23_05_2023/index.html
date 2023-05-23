@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Iniciando com JS</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar  <strong>DOM</strong> com javascript</p>
+    <div id="msg">Clique aqui</div>
+    <script>
+        var corpo = document.body
+        var p1 = document.getElementsByTagName('p')[1]
+        //var d = document.getElementById('msg')
+        //d.style.background = 'green'
+
+        var d = document.querySelector('div#msg')
+        console.log(msg)
+        d.style.background = 'blue'
+        //document.getElementById('msg'),innerText ='Modificado no JS'
+    </script>
+</body>
+</html>
